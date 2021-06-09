@@ -1,0 +1,22 @@
+.btn-link {
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  & .fas {
+    margin-left: 0.5rem;
+    transform: rotate(-45deg);
+  }
+}
+
+.arrow {
+  color: #333;
+  font-size: 4rem;
+  animation: .5s intro ease;
+  &:hover {
+    color: #666;
+  }
+}
