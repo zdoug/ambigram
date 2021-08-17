@@ -1,3 +1,9 @@
+@media screen and (max-width: 1500px) {
+  .portfolio-item {
+    padding: 2rem 3rem;
+  }
+}
+
 @media screen and (min-width: 992px) and (max-width: 1500px) {
   header {
     padding: 2rem 3rem;
@@ -110,15 +116,8 @@
   .card + .card {
     border-top-width: 0;
   }
-  #wrapper {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  #scroller {
-    width: 1504px;
-    & ul li {
-      flex: 0 0 250px;
-    }
+  .portfolio-item {
+    flex: 0 0 48%;
   }
   footer .container {
     flex-direction: column;
@@ -136,5 +135,10 @@
 @media screen and (min-height: 720px) and (max-height: 900px) {
   main h1 {
     font-size: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio-item {
+    flex: 0 0 100%;
   }
 }
