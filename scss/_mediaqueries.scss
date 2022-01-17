@@ -4,7 +4,7 @@
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1500px) {
+@media screen and (min-width: 992px) and (max-width: 1399px) {
   header {
     padding: 2rem 3rem;
   }
@@ -132,11 +132,6 @@
   }
 }
 
-@media screen and (min-height: 720px) and (max-height: 900px) {
-  main h1 {
-    font-size: 4rem;
-  }
-}
 @media screen and (max-width: 500px) {
   .portfolio-item {
     flex: 0 0 100%;
