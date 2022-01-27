@@ -10,13 +10,7 @@ html {
 body {
   background: #202020;
   color: #fff;
-  display: flex;
   font-family: "Work Sans", sans-serif;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -52,8 +46,9 @@ p {
 }
 
 .container {
-  max-width: 1400px;
-  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3rem;
   &.main {
     position: relative;
   }
@@ -76,24 +71,34 @@ p {
     }
   }
 }
-
+header {
+  background: #202020;
+  padding: 3rem 0;
+  & img {
+    max-width: 20rem;
+  }
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  & ul {
+    list-style: none;
+    padding: 0;
+    & li {
+      display: inline-block;
+      font-size: 2rem;
+      margin-left: 3rem;
+      & a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
 main {
-  height: 100vh;
+  padding: 10rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  & img {
-    max-width: 25rem;
-    margin-bottom: 7rem;
-  }
-}
-#box-main {
-  width: 30rem;
-  height: 30rem;
-  position: absolute;
-  right: 0;
-  top: -5%;
-  border: 23px solid #001fff;
-  z-index: -1;
-  box-shadow: 0 0 30px rgba(0,0,0,.3);
 }

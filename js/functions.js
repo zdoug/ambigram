@@ -1,5 +1,8 @@
 window.onload = function() {
-
+  let buttonMenu = document.querySelector("#menu");
+  buttonMenu.addEventListener("click", function(){
+    this.firstChild.classList.toggle("open");
+  });
 
 }
 
