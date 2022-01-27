@@ -5,13 +5,13 @@
   main {
     height: initial;
     padding: 10rem 0;
-    & img {
-      max-width: 10rem;
-    }
   }
   h1 {
     font-size: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+  .container {
+    padding: 0 5rem;
   }
 }
 
