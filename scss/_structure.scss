@@ -45,6 +45,9 @@ p {
 .container {
   max-width: 1400px;
   padding: 0 2rem;
+  &.main {
+    position: relative;
+  }
 }
 
 main {
@@ -61,8 +64,8 @@ main {
   width: 30rem;
   height: 30rem;
   position: absolute;
-  right: 15%;
-  top: 16%;
+  right: 0;
+  top: -5%;
   background:#001fff;
   z-index: -1;
   box-shadow: 0 0 30px rgba(0,0,0,.3);
