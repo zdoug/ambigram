@@ -9,7 +9,6 @@ html {
 
 body {
   background: #202020;
-  color: #fff;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -35,6 +34,13 @@ h1 {
     background: #001fff;
   }
 }
+h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+h3 {
+  font-size: 3rem;
+}
 p {
   font-size: 2.2rem;
   max-width: (2.2rem * 30);
@@ -44,13 +50,19 @@ p {
     margin-bottom: 0;
   }
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 3rem;
+  display: flex;
   &.main {
     position: relative;
+    flex-direction: column;
   }
 }
 
@@ -61,6 +73,7 @@ p {
   padding: 2rem 4rem;
   text-decoration: none;
   margin-top: 3rem;
+  width: fit-content;
   &.btn-primary {
     background: #2C4BE5;
     transition: background-color 0.2s ease;
@@ -99,6 +112,36 @@ header {
 main {
   padding: 10rem 0;
   display: flex;
+  color: #fff;
   justify-content: center;
   align-items: center;
+}
+
+blockquote {
+  font-style: italic;
+  margin-top: 7rem;
+  & p {
+    font-size: 1.6rem;
+    color: #666;
+  }
+  & cite {
+    color: #666;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    display: block;
+  }
+}
+
+section {
+  padding: 10rem 0;
+}
+#about {
+  background: white;
+  & .intro {
+    flex: 0 0 60%;
+    padding-right: 3rem;
+  }
+  & .text {
+    flex: 0 0 40%;
+  }
 }

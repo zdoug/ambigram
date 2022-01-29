@@ -6,9 +6,20 @@
     font-size: 4rem;
     margin-bottom: 3rem;
   }
+  #about {
+    & .intro {
+      padding-right: 0;
+      & img {
+        margin-bottom: 4rem;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1000px) {
+  header .container {
+    flex-direction: row;
+  }
   header nav ul {
     display: none;
     position: absolute;
@@ -55,5 +66,7 @@
   }
   .container {
     padding: 0 4rem;
+    flex-direction: column;
   }
 }
+
