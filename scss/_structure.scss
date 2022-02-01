@@ -5,6 +5,7 @@
 }
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -31,7 +32,7 @@ h1 {
     width: 100px;
     height: 8px;
     margin-top: 20px;
-    background: #001fff;
+    background: #2c4be5;
   }
 }
 h2 {
@@ -112,8 +113,7 @@ header {
         color: white;
         text-decoration: none;
         & i {
-          margin-right: 1.5rem;
-          color: #001fff;
+          color: #2c4be5;
         }
       }
     }
@@ -157,7 +157,7 @@ section {
 }
 
 #services {
-  background: #001fff;
+  background: #2c4be5;
   color: white;
   & .container {
     flex-direction: column;
@@ -215,6 +215,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
   a {
     color: white;
     text-decoration: none;
@@ -223,10 +224,13 @@ section {
     margin-bottom: 2rem;
     word-break: break-word;
     & i {
-      color: #001fff;
+      color: #2c4be5;
       font-size: 4rem;
       margin-right: 1.5rem;
     }
+  }
+  p {
+    margin-bottom: 3rem;
   }
   .container {
     flex-direction: column;
