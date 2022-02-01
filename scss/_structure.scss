@@ -111,6 +111,10 @@ header {
       & a {
         color: white;
         text-decoration: none;
+        & i {
+          margin-right: 1.5rem;
+          color: #001fff;
+        }
       }
     }
   }
@@ -218,6 +222,11 @@ section {
   h2 {
     margin-bottom: 2rem;
     word-break: break-word;
+    & i {
+      color: #001fff;
+      font-size: 4rem;
+      margin-right: 1.5rem;
+    }
   }
   .container {
     flex-direction: column;

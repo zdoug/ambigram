@@ -58,6 +58,17 @@
     &.open {
       display: flex;
     }
+    & a {
+      &[rel="external"] {
+        border: 2px solid white;
+        padding: 2rem 4rem;
+        margin-top: 1rem;
+        display: inline-block;
+      }
+      & i {
+        color: white;
+      }
+    }
   }
   header nav {
     cursor: pointer;
