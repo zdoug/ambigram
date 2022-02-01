@@ -87,6 +87,16 @@
       width: 25px;
       margin-top: 6px;
     }
+    &.menu-open {
+      &::before {
+        transform: rotate(45deg);
+        top: 8px;
+      }
+      &::after {
+        transform: rotate(-45deg);
+        width: 30px;
+      }
+    }
   }
   .container {
     padding: 0 4rem;
