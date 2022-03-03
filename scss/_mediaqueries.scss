@@ -124,7 +124,7 @@
       height: 3px;
       width: 0;
       display: block;
-      background: #2C4BE5;
+      background: $color1;
       margin-top: .5rem;
       transition: width .2s ease;
     }
@@ -132,6 +132,18 @@
       width: 100%;
       transition: width .2s ease;
     }
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    max-width: inherit;
   }
 }
 
