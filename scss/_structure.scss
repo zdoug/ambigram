@@ -21,10 +21,9 @@ p, ul, li, input, label {
 }
 
 h1 {
-  font-size: 6.5em;
+  font-size: 5em;
   margin-bottom: 2.4rem;
   line-height: 1.4;
-  max-width: 80%;
   &:after {
     content: "";
     display: block;
@@ -63,6 +62,7 @@ img {
   margin: 0 auto;
   padding: 0 3rem;
   display: flex;
+  width: 100%;
   &.main {
     position: relative;
     flex-direction: column;
@@ -128,15 +128,21 @@ main {
 }
 
 blockquote {
-  font-style: italic;
-  margin-top: 1.5rem;
+  padding: 4rem;
+  background: #eee;
+  margin-bottom: 3rem;
   & p {
-    font-size: 1.6rem;
+    font-family: "Krona One", sans-serif;
+    font-size: 2.5rem;
     color: #666;
+    & .q1, .q2 {
+      color: $color1;
+      font-family: "Work Sans", sans-serif;
+    }
   }
   & cite {
     color: #666;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-top: 2rem;
     display: block;
   }
@@ -157,7 +163,8 @@ section {
       margin-bottom: 4rem;
     }
     & img {
-      animation: rotate 2s ease 2s forwards infinite;
+      /*animation: rotate 2s ease 2s forwards infinite;*/
+      margin-bottom: 3rem;
     }
   }
 }
@@ -243,6 +250,7 @@ section {
   .container {
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   & ul {
     list-style: none;
