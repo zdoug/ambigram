@@ -4,6 +4,8 @@ window.onload = function() {
     this.classList.toggle("menu-open");
     console.log(this);
   });
+
+  new WOW().init();
 }
 
 
