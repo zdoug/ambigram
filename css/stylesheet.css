@@ -63,6 +63,10 @@ img {
   display: block;
 }
 
+.fadeInLeft {
+  animation-fill-mode: forwards;
+}
+
 .container {
   max-width: 1470px;
   margin: 0 auto;
