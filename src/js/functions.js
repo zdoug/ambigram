@@ -5,6 +5,7 @@ window.onload = function() {
     console.log(this);
   });
 
+  // WOW Plugin Call
   new WOW().init();
 }
 
