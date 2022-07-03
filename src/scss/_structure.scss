@@ -114,7 +114,7 @@ header {
         color: white;
         text-decoration: none;
         & i {
-          color: #2c4be5;
+          color: #0762C8;
         }
       }
     }
@@ -167,6 +167,7 @@ section {
     & img {
       /*animation: rotate 2s ease 2s forwards infinite;*/
       margin-bottom: 3rem;
+      max-width: 40px;
     }
   }
 }

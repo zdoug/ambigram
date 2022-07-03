@@ -33,7 +33,7 @@ h1:after {
   width: 100px;
   height: 8px;
   margin-top: 20px;
-  background: #1556C4;
+  background: #0762C8;
 }
 
 h2 {
@@ -89,7 +89,7 @@ img {
   width: fit-content;
 }
 .btn.btn-primary {
-  background: #1556C4;
+  background: #0762C8;
   transition: background-color 0.2s ease;
   color: white;
 }
@@ -127,7 +127,7 @@ header ul li a {
   text-decoration: none;
 }
 header ul li a i {
-  color: #2c4be5;
+  color: #0762C8;
 }
 
 main {
@@ -150,7 +150,7 @@ blockquote p {
   color: #666;
 }
 blockquote p .q1, blockquote p .q2 {
-  color: #1556C4;
+  color: #0762C8;
   font-family: "Work Sans", sans-serif;
 }
 blockquote cite {
@@ -180,10 +180,11 @@ section {
 #about .text img {
   /*animation: rotate 2s ease 2s forwards infinite;*/
   margin-bottom: 3rem;
+  max-width: 40px;
 }
 
 #services {
-  background: #1556C4;
+  background: #0762C8;
   color: white;
 }
 #services .container {
@@ -254,7 +255,7 @@ section {
   word-break: break-word;
 }
 #contact h2 i {
-  color: #1556C4;
+  color: #0762C8;
   font-size: 4rem;
   margin-right: 1.5rem;
 }
@@ -359,7 +360,7 @@ section {
     display: none;
     justify-content: center;
     align-items: center;
-    background: #2C4BE5;
+    background: #0762C8;
     z-index: 1;
     flex-direction: column;
   }
@@ -433,7 +434,7 @@ section {
     height: 3px;
     width: 0;
     display: block;
-    background: #1556C4;
+    background: #0762C8;
     margin-top: 0.5rem;
     transition: width 0.2s ease;
   }
