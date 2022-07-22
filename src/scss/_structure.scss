@@ -6,12 +6,13 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background: #040405;
   font-family: "Inter", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -120,6 +121,9 @@ header {
           color: #0762C8;
         }
       }
+    }
+    & .social {
+      display: inline-block;
     }
   }
 }
