@@ -405,7 +405,7 @@ section {
   header nav::after {
     width: 25px;
     margin-top: 6px;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease 0.2s;
   }
   header nav.menu-open::before {
     transform: rotate(45deg);
@@ -415,7 +415,7 @@ section {
   header nav.menu-open::after {
     transform: rotate(-45deg);
     width: 30px;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease 0.2s;
   }
 
   .container {
