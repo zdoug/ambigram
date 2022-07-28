@@ -37,7 +37,7 @@ h1 {
   }
 }
 h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 4rem;
   line-height: 1.5;
 }
@@ -284,4 +284,27 @@ section {
       }
     }
   }
+}
+.rotate, .circle {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+.rotate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0%;
+  right: 10%;
+  & img {
+    width: 36px;
+    position: relative;
+    z-index: 1;
+  }
+}
+.circle {
+  background: url(../img/elementos-design-circulo.svg) no-repeat;
+  transform-origin: center center;
+  top: 0;
+  left: 0;
 }

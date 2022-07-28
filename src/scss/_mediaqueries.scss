@@ -6,6 +6,17 @@
     font-size: 4.5rem;
     margin-bottom: 3rem;
   }
+  .rotate {
+    position: static;
+    margin-top: 6rem;
+    & , .circle {
+      width: 100px;
+      height: 100px;
+    }
+    & img {
+      width: 26px;
+    }
+  }
   #about {
     & .intro {
       padding-right: 0;
