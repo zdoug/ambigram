@@ -352,12 +352,10 @@ section {
   html {
     font-size: 8px;
   }
-
   h1 {
     font-size: 4.5rem;
     margin-bottom: 3rem;
   }
-
   .rotate {
     position: static;
     margin-top: 6rem;
@@ -369,14 +367,12 @@ section {
   .rotate img {
     width: 26px;
   }
-
   #about .intro {
     padding-right: 0;
   }
   #about .intro img {
     margin-bottom: 4rem;
   }
-
   #projects .container .projects-list {
     flex-direction: column;
   }
@@ -386,7 +382,6 @@ section {
   #projects .container .projects-list .project:first-child {
     margin-top: 0;
   }
-
   #social li {
     margin-right: 3rem;
     margin-left: 0;
@@ -396,12 +391,10 @@ section {
   header .container {
     flex-direction: row;
   }
-
   header nav.menu-open ul {
     left: 0;
     transition: all 0.2s ease-out;
   }
-
   header nav ul {
     position: absolute;
     display: flex;
@@ -441,7 +434,6 @@ section {
   header nav ul a i {
     color: white;
   }
-
   header nav {
     cursor: pointer;
   }
@@ -473,12 +465,10 @@ section {
     transition: all 0.2s ease 0.2s;
     box-shadow: 0px 2px 0px #0762c8;
   }
-
   .container {
     padding: 0 4rem;
     flex-direction: column;
   }
-
   #services .container .services-list {
     flex-direction: column;
   }
@@ -562,7 +552,7 @@ section {
 
 .cookie-box {
   pointer-events: all;
-  max-width: 50rem;
+  max-width: 70rem;
   background: #fff;
   border: 3px solid #000;
   margin-bottom: 2rem;
@@ -574,7 +564,7 @@ section {
 }
 
 .cookie-box p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   margin-bottom: 2rem;
   font-weight: 500;
@@ -587,8 +577,8 @@ section {
 }
 
 .cookie-box button.button-cookie-choice {
-  border: 2px solid #aaa;
-  font-size: 1.2rem;
+  border: 2px solid #ddd;
+  font-size: 1.5rem;
   font-weight: bold;
   display: inline-block;
   padding: 1rem 3rem;
@@ -596,18 +586,28 @@ section {
   text-decoration: none;
   cursor: pointer;
   background: transparent;
+  font-family: "Inter", sans-serif;
+}
+.cookie-box button.button-cookie-choice:hover {
+  background: #ddd;
+  border-color: #ddd;
 }
 
 .cookie-box button.button-cookie-choice:last-child {
-  background: #222;
+  background: #333;
   margin-left: 1.5rem;
   color: #fff;
-  border-color: transparent;
+  border-color: #333;
+}
+.cookie-box button.button-cookie-choice:last-child:hover {
+  background: #000;
+  border-color: #000;
 }
 
 @media screen and (max-width: 767px) {
   .cookie-box {
     max-width: initial;
     margin-bottom: 0;
+    border-width: 3px 0px 0px 0px;
   }
 }

@@ -8,7 +8,7 @@ Cookies = {
       container.appendChild(cookieBox);
   
       var paragraphCookie = document.createElement("p");
-      var paragraphString = document.createTextNode("Utilizamos cookies em nosso site para lhe oferecer melhor experiência na navegação, melhorar o desempenho e analisar como você interage para personalizar conteúdo exclusivamente para você.");
+      var paragraphString = document.createTextNode("Utilizamos cookies em nosso site para lhe oferecer melhor experiência na navegação, melhorar o desempenho e personalizar conteúdo exclusivamente para você.");
       paragraphCookie.appendChild(paragraphString);
       cookieBox.appendChild(paragraphCookie);
   
