@@ -286,8 +286,8 @@ section {
   }
 }
 .rotate, .circle {
-  width: 150px;
-  height: 150px;
+  width: 500px;
+  height: 500px;
   position: absolute;
 }
 .rotate {
@@ -295,9 +295,9 @@ section {
   align-items: center;
   justify-content: center;
   bottom: 0%;
-  right: 10%;
+  right: -225px;
   & img {
-    width: 36px;
+    width: 50px;
     position: relative;
     z-index: 1;
   }
