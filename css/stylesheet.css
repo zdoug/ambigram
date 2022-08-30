@@ -148,7 +148,8 @@ main {
 blockquote {
   padding: 4rem;
   background: #0762C8;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+  border-bottom-right-radius: 3rem;
 }
 blockquote p {
   font-family: "Epilogue", sans-serif;
@@ -321,6 +322,22 @@ section {
   left: 0;
 }
 
+#line {
+  background: #ddd;
+  padding: 1rem 0;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: nowrap;
+}
+#line p {
+  font-size: 2rem;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  max-width: initial;
+}
+
 .btn-link {
   display: inline-block;
   font-size: 1rem;
@@ -355,6 +372,7 @@ section {
   h1 {
     font-size: 4.5rem;
     margin-bottom: 3rem;
+    max-width: inherit;
   }
   .rotate {
     position: static;
