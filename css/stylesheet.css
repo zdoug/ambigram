@@ -323,17 +323,18 @@ section {
 }
 
 #line {
-  background: #ddd;
-  padding: 1rem 0;
+  background: #e4e4e4;
+  padding: 2rem 0;
   overflow: hidden;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-flow: nowrap;
+  white-space: nowrap;
 }
-#line p {
-  font-size: 2rem;
+#line span {
+  animation: marquee 15s linear infinite;
+  color: #b5b5b5;
+  display: inline-block;
   font-family: "Epilogue", sans-serif;
   font-weight: 500;
+  padding-left: 100%;
   font-size: 3rem;
   max-width: initial;
 }
@@ -384,6 +385,9 @@ section {
   }
   .rotate img {
     width: 26px;
+  }
+  #line span {
+    font-size: 2rem;
   }
   #about .intro {
     padding-right: 0;
@@ -560,6 +564,14 @@ section {
   animation: rotate360 13s infinite linear;
 }
 
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
 .cookies {
   position: fixed;
   pointer-events: none;
