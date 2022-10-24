@@ -7,17 +7,7 @@
     margin-bottom: 3rem;
     max-width: inherit;
   }
-  .rotate {
-    position: static;
-    margin-top: 6rem;
-    & , .circle {
-      width: 100px;
-      height: 100px;
-    }
-    & img {
-      width: 26px;
-    }
-  }
+  
   #line span {
     font-size: 2rem;
   }

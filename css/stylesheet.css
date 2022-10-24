@@ -300,32 +300,6 @@ section {
   margin-left: 0;
 }
 
-.rotate, .circle {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-}
-
-.rotate {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  bottom: 0%;
-  right: -225px;
-}
-.rotate img {
-  width: 50px;
-  position: relative;
-  z-index: 1;
-}
-
-.circle {
-  background: url(../img/elementos-design-circulo.svg) no-repeat;
-  transform-origin: center center;
-  top: 0;
-  left: 0;
-}
-
 #line {
   background: #e4e4e4;
   padding: 2rem 0;
@@ -378,17 +352,6 @@ section {
     font-size: 4.5rem;
     margin-bottom: 3rem;
     max-width: inherit;
-  }
-  .rotate {
-    position: static;
-    margin-top: 6rem;
-  }
-  .rotate, .rotate .circle {
-    width: 100px;
-    height: 100px;
-  }
-  .rotate img {
-    width: 26px;
   }
   #line span {
     font-size: 2rem;
