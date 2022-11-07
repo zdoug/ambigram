@@ -147,7 +147,7 @@ section {
   & .intro {
     flex: 0 0 50%;
     padding-right: 8rem;
-    & img {
+    & img[alt="Foto Escritório"] {
       border-top-right-radius: 15rem;
     }
   }
