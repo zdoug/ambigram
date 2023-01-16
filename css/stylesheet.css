@@ -349,24 +349,29 @@ section {
   html {
     font-size: 8px;
   }
+
   h1 {
     font-size: 4.5rem;
     margin-bottom: 3rem;
     max-width: inherit;
   }
+
   h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
   }
+
   #line span {
     font-size: 2rem;
   }
+
   #about .intro {
     padding-right: 0;
   }
   #about .intro img {
     margin-bottom: 4rem;
   }
+
   #projects .container .projects-list {
     flex-direction: column;
   }
@@ -376,6 +381,7 @@ section {
   #projects .container .projects-list .project:first-child {
     margin-top: 0;
   }
+
   #social li {
     margin-right: 3rem;
     margin-left: 0;
@@ -385,10 +391,12 @@ section {
   header .container {
     flex-direction: row;
   }
+
   header nav.menu-open ul {
     left: 0;
     transition: all 0.2s ease-out;
   }
+
   header nav ul {
     position: absolute;
     display: flex;
@@ -428,6 +436,7 @@ section {
   header nav ul a i {
     color: white;
   }
+
   header nav {
     cursor: pointer;
   }
@@ -459,10 +468,12 @@ section {
     transition: all 0.2s ease 0.2s;
     box-shadow: 0px 2px 0px #0762c8;
   }
+
   .container {
     padding: 0 4rem;
     flex-direction: column;
   }
+
   #services .container .services-list {
     flex-direction: column;
   }
@@ -492,6 +503,7 @@ section {
   h1 {
     font-size: 5rem;
   }
+
   .rotate {
     right: -140px;
     top: 50%;
