@@ -42,7 +42,7 @@ h2 {
   line-height: 1.5;
 }
 h3 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   margin-bottom: 1.8rem;
   line-height: 1.5;
 }
@@ -219,8 +219,7 @@ section {
         }
         & small {
           color: #666;
-          font-size: 1.4rem;
-          font-style: italic;
+          font-size: 1.5rem;
         }
       }
     }
@@ -236,24 +235,26 @@ section {
   a {
     color: white;
     text-decoration: none;
-  }
-  h2 {
+    font-size: 3rem;
     margin-bottom: 2rem;
     word-break: break-word;
     font-family: "Inter", sans-serif;
     & i {
       color: $color1;
-      font-size: 4rem;
       margin-right: 1.5rem;
     }
   }
   p {
     margin-bottom: 3rem;
+    font-family: "Epilogue", sans-serif;
+    font-size: 3rem;
+    & strong {
+      font-weight:500;
+    }
   }
   .container {
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: left;
   }
   & ul {
     list-style: none;

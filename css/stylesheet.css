@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   margin-bottom: 1.8rem;
   line-height: 1.5;
 }
@@ -232,8 +232,7 @@ section {
 }
 #projects .container .projects-list .project small {
   color: #666;
-  font-size: 1.4rem;
-  font-style: italic;
+  font-size: 1.5rem;
 }
 
 #contact {
@@ -246,24 +245,26 @@ section {
 #contact a {
   color: white;
   text-decoration: none;
-}
-#contact h2 {
+  font-size: 3rem;
   margin-bottom: 2rem;
   word-break: break-word;
   font-family: "Inter", sans-serif;
 }
-#contact h2 i {
+#contact a i {
   color: #0762C8;
-  font-size: 4rem;
   margin-right: 1.5rem;
 }
 #contact p {
   margin-bottom: 3rem;
+  font-family: "Epilogue", sans-serif;
+  font-size: 3rem;
+}
+#contact p strong {
+  font-weight: 500;
 }
 #contact .container {
   flex-direction: column;
-  text-align: center;
-  align-items: center;
+  text-align: left;
 }
 #contact ul {
   list-style: none;
@@ -382,9 +383,13 @@ section {
     margin-top: 0;
   }
 
-  #social li {
-    margin-right: 3rem;
+  ul#social li {
+    margin-right: 0;
     margin-left: 0;
+    display: block;
+  }
+  ul#social li a {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 1000px) {

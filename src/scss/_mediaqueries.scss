@@ -32,9 +32,13 @@
       }
     }
   }
-  #social li {
-    margin-right: 3rem;
+  ul#social li {
+    margin-right: 0;
     margin-left: 0;
+    display: block;
+    & a {
+      font-size: 2rem;
+    }
   }
 }
 
