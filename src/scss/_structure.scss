@@ -153,6 +153,10 @@ section {
   }
   & .text {
     flex: 0 0 40%;
+    & div {
+      position: sticky;
+      top: 0;
+    }
     & p:last-of-type {
       margin-bottom: 4rem;
     }

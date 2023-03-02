@@ -166,6 +166,10 @@ section {
 #about .text {
   flex: 0 0 40%;
 }
+#about .text div {
+  position: sticky;
+  top: 0;
+}
 #about .text p:last-of-type {
   margin-bottom: 4rem;
 }
