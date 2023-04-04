@@ -472,7 +472,7 @@ section {
   header nav::after {
     width: 25px;
     margin-top: 6px;
-    transition: all 0.2s ease 0.2s;
+    transition: all 0.2s ease 0.3s;
   }
   header nav.menu-open::before {
     transform: rotate(45deg);
@@ -482,8 +482,8 @@ section {
   header nav.menu-open::after {
     transform: rotate(-45deg);
     width: 30px;
-    transition: all 0.2s ease 0.2s;
-    box-shadow: 0px -2px 0px #0762c8;
+    transition: all 0.2s ease 0.3s;
+    box-shadow: 0px -2px 0px #0762c8, 0px -3px 0px #0762c8;
   }
 
   .container {
