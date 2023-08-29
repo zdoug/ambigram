@@ -199,12 +199,11 @@ section {
     flex-direction: column;
     & .projects-list {
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
       list-style: none;
+      gap: 5rem 2%;
       & .project {
         flex: 0 0 32%;
-        margin-bottom: 5rem;
         & a {
           transition: all .2s ease;
           &:hover, &:focus {

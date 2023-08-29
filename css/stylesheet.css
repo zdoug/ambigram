@@ -209,13 +209,12 @@ section {
 }
 #projects .container .projects-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
+  gap: 5rem 2%;
 }
 #projects .container .projects-list .project {
   flex: 0 0 32%;
-  margin-bottom: 5rem;
 }
 #projects .container .projects-list .project a {
   transition: all 0.2s ease;
@@ -524,6 +523,9 @@ section {
   }
   .rotate img {
     width: 35px;
+  }
+  #projects .container .projects-list .project {
+    flex: 0 0 48%;
   }
 }
 @keyframes intro {

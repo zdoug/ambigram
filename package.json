@@ -9,7 +9,6 @@
     "sass": "^1.49.9"
   },
   "dependencies": {
-    "node-sass": "^7.0.1",
     "wow.js": "^1.2.2"
   },
   "name": "ambigram",
