@@ -31,12 +31,7 @@
   }
   #projects .container .projects-list {
     flex-direction: column;
-    & .project {
-      margin-top: 3rem;
-      &:first-child {
-        margin-top: 0;
-      }
-    }
+    gap: 3rem;
   }
   ul#social li {
     margin-right: 0;
@@ -137,12 +132,7 @@
   
   #services .container .services-list {
     flex-direction: column;
-    & .service {
-      margin-top: 3rem;
-      &:first-child {
-        margin-top: 0;
-      }
-    }
+    gap: 3rem;
   }
 }
 

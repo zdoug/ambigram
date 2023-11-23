@@ -191,6 +191,7 @@ section {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  gap: 2rem;
 }
 #services .service {
   border: 4px solid white;
@@ -385,12 +386,7 @@ section {
   }
   #projects .container .projects-list {
     flex-direction: column;
-  }
-  #projects .container .projects-list .project {
-    margin-top: 3rem;
-  }
-  #projects .container .projects-list .project:first-child {
-    margin-top: 0;
+    gap: 3rem;
   }
   ul#social li {
     margin-right: 0;
@@ -485,12 +481,7 @@ section {
   }
   #services .container .services-list {
     flex-direction: column;
-  }
-  #services .container .services-list .service {
-    margin-top: 3rem;
-  }
-  #services .container .services-list .service:first-child {
-    margin-top: 0;
+    gap: 3rem;
   }
 }
 @media screen and (min-width: 1001px) {
