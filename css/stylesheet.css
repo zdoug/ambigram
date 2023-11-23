@@ -195,7 +195,7 @@ section {
 #services .service {
   border: 4px solid white;
   padding: 3rem;
-  flex: 0 0 47.5%;
+  flex: 1 0 0;
 }
 #services .service p {
   font-size: 1.8rem;
