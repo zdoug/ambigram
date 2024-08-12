@@ -144,6 +144,11 @@ section {
 }
 #about {
   background: white;
+  & p {
+    & a {
+      color: #0762c8;
+    }
+  }
   & .intro {
     flex: 0 0 50%;
     padding-right: 8rem;
