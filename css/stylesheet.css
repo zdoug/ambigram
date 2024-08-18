@@ -12,16 +12,12 @@ html {
 
 body {
   background: #040405;
-  font-family: "Inter", sans-serif;
+  font-family: "Sora", sans-serif;
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Epilogue", sans-serif;
-}
-
 p, ul, li, input, label {
-  font-family: "Inter", sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
 h1 {
@@ -49,6 +45,7 @@ h3 {
   font-size: 2.4rem;
   margin-bottom: 1.8rem;
   line-height: 1.5;
+  font-weight: 600;
 }
 
 p {
@@ -132,14 +129,14 @@ blockquote {
   border-bottom-right-radius: 15rem;
 }
 blockquote p {
-  font-family: "Epilogue", sans-serif;
+  font-family: "Sora", sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
   color: white;
 }
 blockquote p .q1, blockquote p .q2 {
   color: white;
-  font-family: "Inter", sans-serif;
+  font-family: "Sora", sans-serif;
 }
 blockquote cite {
   color: white;
@@ -230,7 +227,7 @@ section {
 #projects .container .projects-list .project h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.25rem;
-  font-family: "Epilogue", sans-serif;
+  font-family: "Sora", sans-serif;
   color: #202020;
 }
 #projects .container .projects-list .project small {
@@ -239,7 +236,7 @@ section {
 }
 
 #contact {
-  height: 50vh;
+  padding-top: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,7 +248,13 @@ section {
   font-size: 3rem;
   margin-bottom: 2rem;
   word-break: break-word;
-  font-family: "Inter", sans-serif;
+  font-family: "Sora", sans-serif;
+}
+#contact a.btn-secondary {
+  font-size: 1.8rem;
+  color: #0762C8;
+  margin-bottom: 4rem;
+  margin-top: 0;
 }
 #contact a i {
   color: #0762C8;
@@ -259,7 +262,7 @@ section {
 }
 #contact p {
   margin-bottom: 3rem;
-  font-family: "Epilogue", sans-serif;
+  font-family: "Sora", sans-serif;
   font-size: 3rem;
 }
 #contact p strong {
@@ -294,7 +297,7 @@ section {
   animation: marquee 15s linear infinite;
   color: #b5b5b5;
   display: inline-block;
-  font-family: "Epilogue", sans-serif;
+  font-family: "Sora", sans-serif;
   font-weight: 500;
   padding-left: 100%;
   font-size: 3rem;
@@ -304,7 +307,7 @@ section {
 .btn {
   display: inline-block;
   font-size: 2rem;
-  font-family: "Epilogue";
+  font-family: "Sora";
   padding: 2rem 4rem;
   font-weight: 500;
   text-decoration: none;
@@ -427,7 +430,7 @@ section {
     font-size: 3.5rem;
     margin-left: 0;
     margin-top: 2rem;
-    font-family: "Epilogue", sans-serif;
+    font-family: "Sora", sans-serif;
     font-weight: 700;
   }
   header nav ul li::first-child {
@@ -605,14 +608,14 @@ section {
 .cookie-box button.button-cookie-choice {
   border: 2px solid #ddd;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 600;
   display: inline-block;
   padding: 1rem 3rem;
   color: #000;
   text-decoration: none;
   cursor: pointer;
   background: transparent;
-  font-family: "Inter", sans-serif;
+  font-family: "Sora", sans-serif;
 }
 .cookie-box button.button-cookie-choice:hover {
   background: #ddd;
