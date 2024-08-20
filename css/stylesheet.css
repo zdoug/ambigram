@@ -121,6 +121,9 @@ main {
   justify-content: center;
   align-items: center;
 }
+main h1 {
+  font-weight: 600;
+}
 
 blockquote {
   padding: 4rem;
@@ -178,6 +181,7 @@ section {
   border-radius: 50%;
   max-width: 75px;
   margin-bottom: 2rem;
+  border: 5px solid #C19636;
 }
 
 #services {
@@ -197,6 +201,10 @@ section {
   border: 4px solid white;
   padding: 3rem;
   flex: 1 0 0;
+}
+#services .service img {
+  max-width: 5rem;
+  margin-bottom: 2rem;
 }
 #services .service p {
   font-size: 1.8rem;
