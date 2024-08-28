@@ -7,12 +7,21 @@ html {
   font-size: 10px;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  cursor: $default-cursor;
 }
 
 body {
   background: #040405;
   font-family: "Sora", sans-serif;
   overflow-x: hidden;
+}
+
+a, button, input[type="radio"], input[type="checkbox"] {
+  cursor: $pointer-cursor;
+}
+
+input[type="text"], p, h1, h2, h3, h4, h5, h6 {
+  cursor: $text-cursor;
 }
 
 p, ul, li, input, label {
