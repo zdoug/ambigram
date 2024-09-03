@@ -193,6 +193,9 @@ section {
   color: white;
   & .container {
     flex-direction: column;
+    & p {
+      margin-bottom: 5rem;
+    }
     & .services-list {
       display: flex;
       justify-content: space-between;
