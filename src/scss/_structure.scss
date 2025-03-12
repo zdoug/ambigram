@@ -12,7 +12,7 @@ html {
 
 body {
   background: #040405;
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   overflow-x: hidden;
 }
 
@@ -25,7 +25,7 @@ input[type="text"], p, h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, li, input, label {
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 h1 {
@@ -56,7 +56,7 @@ h3 {
 p {
   font-size: 2rem;
   max-width: (2rem * 30);
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 2rem;
   &:last-of-type {
     margin-bottom: 0;
@@ -132,13 +132,13 @@ blockquote {
   margin-bottom: 5rem;
   border-bottom-right-radius: 15rem;
   & p {
-    font-family: "Sora", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 2.5rem;
     font-weight: 500;
     color: white;
     & .q1, .q2 {
       color: white;
-      font-family: "Sora", sans-serif;
+      font-family: "Plus Jakarta Sans", sans-serif;
     }
   }
   & cite {
@@ -238,7 +238,7 @@ section {
         & h3 {
           margin-top: 1.5rem;
           margin-bottom: .25rem;
-          font-family: "Sora", sans-serif;
+          font-family: "Plus Jakarta Sans", sans-serif;
           color: #202020;
         }
         & small {
@@ -262,7 +262,7 @@ section {
     font-size: 3rem;
     margin-bottom: 2rem;
     word-break: break-word;
-    font-family: "Sora", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     &.btn {
       &-secondary {
         font-size: 1.8rem;
@@ -278,7 +278,7 @@ section {
   }
   p {
     margin-bottom: 3rem;
-    font-family: "Sora", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 3rem;
     & strong {
       font-weight:500;
@@ -314,7 +314,7 @@ section {
     animation: marquee 15s linear infinite;
     color: #b5b5b5;
     display: inline-block;
-    font-family: "Sora", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 500;
     padding-left: 100%;
     font-size: 3rem;

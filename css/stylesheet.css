@@ -13,7 +13,7 @@ html {
 
 body {
   background: #040405;
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   overflow-x: hidden;
 }
 
@@ -26,7 +26,7 @@ input[type=text], p, h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, li, input, label {
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 h1 {
@@ -60,7 +60,7 @@ h3 {
 p {
   font-size: 2rem;
   max-width: 60rem;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 2rem;
 }
 p:last-of-type {
@@ -141,14 +141,14 @@ blockquote {
   border-bottom-right-radius: 15rem;
 }
 blockquote p {
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
   color: white;
 }
 blockquote p .q1, blockquote p .q2 {
   color: white;
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 blockquote cite {
   color: white;
@@ -247,7 +247,7 @@ section {
 #projects .container .projects-list .project h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.25rem;
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   color: #202020;
 }
 #projects .container .projects-list .project small {
@@ -268,7 +268,7 @@ section {
   font-size: 3rem;
   margin-bottom: 2rem;
   word-break: break-word;
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 #contact a.btn-secondary {
   font-size: 1.8rem;
@@ -282,7 +282,7 @@ section {
 }
 #contact p {
   margin-bottom: 3rem;
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 3rem;
 }
 #contact p strong {
@@ -317,7 +317,7 @@ section {
   animation: marquee 15s linear infinite;
   color: #b5b5b5;
   display: inline-block;
-  font-family: "Sora", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   padding-left: 100%;
   font-size: 3rem;
@@ -327,7 +327,7 @@ section {
 .btn {
   display: inline-block;
   font-size: 2rem;
-  font-family: "Sora";
+  font-family: "Plus Jakarta Sans";
   padding: 2rem 4rem;
   font-weight: 500;
   text-decoration: none;
