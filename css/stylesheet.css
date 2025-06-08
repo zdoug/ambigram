@@ -111,6 +111,7 @@ header ul li {
   display: inline-block;
   font-size: 2rem;
   margin-left: 3rem;
+  vertical-align: middle;
 }
 header ul li a {
   color: white;
@@ -275,6 +276,13 @@ section {
   color: #0762C8;
   margin-bottom: 4rem;
   margin-top: 0;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+#contact a.btn-secondary img {
+  margin-right: 2rem;
+  max-width: 3.25rem;
 }
 #contact a i {
   color: #0762C8;
@@ -322,6 +330,20 @@ section {
   padding-left: 100%;
   font-size: 3rem;
   max-width: initial;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  display: block;
+  height: block;
+}
+.btn-whatsapp img {
+  max-width: 60px;
 }
 
 .btn {
