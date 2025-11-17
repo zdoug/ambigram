@@ -9,6 +9,7 @@
     "sass": "^1.49.9"
   },
   "dependencies": {
+    "gsap": "^3.13.0",
     "wow.js": "^1.2.2"
   },
   "name": "ambigram",
