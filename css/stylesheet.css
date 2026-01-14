@@ -30,10 +30,10 @@ p, ul, li, input, label {
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 5em;
   margin-bottom: 2.4rem;
   line-height: 1.4;
-  max-width: 75%;
+  max-width: 50%;
 }
 h1:after {
   content: "";
@@ -60,7 +60,7 @@ h3 {
 p {
   font-size: 2rem;
   max-width: 60rem;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 2rem;
 }
 p:last-of-type {
@@ -350,9 +350,9 @@ section {
 
 .btn {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "Plus Jakarta Sans";
-  padding: 2rem 4rem;
+  padding: 1.25rem 3rem;
   font-weight: 500;
   text-decoration: none;
   margin-top: 3rem;
@@ -364,7 +364,7 @@ section {
   color: #0762C8;
   transition: background-color 0.2s ease;
   padding: 1.2rem 2.2rem;
-  font-size: 1.8rem;
+  font-size: 1.75rem;
 }
 .btn.btn-secondary i {
   margin-right: 1rem;
