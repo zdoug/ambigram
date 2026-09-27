@@ -53,6 +53,11 @@ h3 {
   line-height: 1.5;
   font-weight: 600;
 }
+h4 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
 p {
   font-size: 2rem;
   max-width: (2rem * 30);
@@ -229,11 +234,15 @@ section {
   background: white;
   & .container {
     flex-direction: column;
+    & h3 {
+      color: $color1;
+    }
     & .projects-list {
       display: flex;
       flex-wrap: wrap;
       list-style: none;
       gap: 5rem 2%;
+      margin-bottom: 5rem;
       & .project {
         flex: 0 0 32%;
         & a {
@@ -243,7 +252,7 @@ section {
             transition: all .2s ease;
           }
         }
-        & h3 {
+        & h4 {
           margin-top: 1.5rem;
           margin-bottom: .25rem;
           font-family: "Plus Jakarta Sans", sans-serif;
